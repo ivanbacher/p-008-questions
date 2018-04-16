@@ -540,8 +540,851 @@ System.config({
       "url": "github:jspm/nodelibs-url@0.1.0"
     }
   },
+  depCache: {
+    "app.js": [
+      "aurelia-framework",
+      "./services/log",
+      "aurelia-event-aggregator",
+      "../data/experiment_code/file1.js!text",
+      "../data/experiment_code/file2.js!text",
+      "./questions.js",
+      "jquery"
+    ],
+    "editor.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "./services/log",
+      "d3",
+      "CodeMirror",
+      "CodeMirror/mode/javascript/javascript.js",
+      "CodeMirror/lib/codemirror.css!css",
+      "CodeMirror/addon/fold/foldcode.js",
+      "CodeMirror/addon/fold/foldgutter.js",
+      "CodeMirror/addon/fold/brace-fold.js",
+      "CodeMirror/addon/fold/foldgutter.css!css"
+    ],
+    "main.js": [
+      "aurelia-framework",
+      "aurelia-logging-console",
+      "bootstrap"
+    ],
+    "minimap.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "./services/log",
+      "./parser.js",
+      "jquery",
+      "d3",
+      "./minimap_helpers.js"
+    ],
+    "parser.js": [
+      "esprima",
+      "escope",
+      "escodegen"
+    ],
+    "questions.js": [
+      "./questions_file1.js",
+      "./questions_file2.js"
+    ],
+    "services/log.js": [
+      "aurelia-framework"
+    ],
+    "npm:aurelia-logging-console@1.0.0.js": [
+      "npm:aurelia-logging-console@1.0.0/aurelia-logging-console"
+    ],
+    "npm:aurelia-logging-console@1.0.0/aurelia-logging-console.js": [
+      "aurelia-logging"
+    ],
+    "npm:aurelia-logging@1.3.1.js": [
+      "npm:aurelia-logging@1.3.1/aurelia-logging"
+    ],
+    "npm:aurelia-history-browser@1.1.0.js": [
+      "npm:aurelia-history-browser@1.1.0/aurelia-history-browser"
+    ],
+    "npm:aurelia-history-browser@1.1.0/aurelia-history-browser.js": [
+      "aurelia-pal",
+      "aurelia-history"
+    ],
+    "npm:aurelia-pal@1.4.0.js": [
+      "npm:aurelia-pal@1.4.0/aurelia-pal"
+    ],
+    "npm:aurelia-history@1.1.0.js": [
+      "npm:aurelia-history@1.1.0/aurelia-history"
+    ],
+    "npm:aurelia-loader-default@1.0.3.js": [
+      "npm:aurelia-loader-default@1.0.3/aurelia-loader-default"
+    ],
+    "npm:aurelia-loader-default@1.0.3/aurelia-loader-default.js": [
+      "aurelia-loader",
+      "aurelia-pal",
+      "aurelia-metadata"
+    ],
+    "npm:aurelia-loader@1.0.0.js": [
+      "npm:aurelia-loader@1.0.0/aurelia-loader"
+    ],
+    "npm:aurelia-metadata@1.0.3.js": [
+      "npm:aurelia-metadata@1.0.3/aurelia-metadata"
+    ],
+    "npm:aurelia-loader@1.0.0/aurelia-loader.js": [
+      "aurelia-path",
+      "aurelia-metadata"
+    ],
+    "npm:aurelia-metadata@1.0.3/aurelia-metadata.js": [
+      "aurelia-pal"
+    ],
+    "npm:aurelia-path@1.1.1.js": [
+      "npm:aurelia-path@1.1.1/aurelia-path"
+    ],
+    "npm:aurelia-templating-router@1.2.0.js": [
+      "npm:aurelia-templating-router@1.2.0/aurelia-templating-router"
+    ],
+    "npm:aurelia-templating-router@1.2.0/aurelia-templating-router.js": [
+      "aurelia-pal",
+      "aurelia-router",
+      "./route-loader",
+      "./router-view",
+      "./route-href"
+    ],
+    "npm:aurelia-router@1.4.0.js": [
+      "npm:aurelia-router@1.4.0/aurelia-router"
+    ],
+    "npm:aurelia-router@1.4.0/aurelia-router.js": [
+      "aurelia-logging",
+      "aurelia-route-recognizer",
+      "aurelia-dependency-injection",
+      "aurelia-history",
+      "aurelia-event-aggregator"
+    ],
+    "npm:aurelia-route-recognizer@1.1.1.js": [
+      "npm:aurelia-route-recognizer@1.1.1/aurelia-route-recognizer"
+    ],
+    "npm:aurelia-dependency-injection@1.3.2.js": [
+      "npm:aurelia-dependency-injection@1.3.2/aurelia-dependency-injection"
+    ],
+    "npm:aurelia-event-aggregator@1.0.1.js": [
+      "npm:aurelia-event-aggregator@1.0.1/aurelia-event-aggregator"
+    ],
+    "npm:aurelia-route-recognizer@1.1.1/aurelia-route-recognizer.js": [
+      "aurelia-path"
+    ],
+    "npm:aurelia-dependency-injection@1.3.2/aurelia-dependency-injection.js": [
+      "aurelia-metadata",
+      "aurelia-pal"
+    ],
+    "npm:aurelia-event-aggregator@1.0.1/aurelia-event-aggregator.js": [
+      "aurelia-logging"
+    ],
+    "npm:aurelia-templating-router@1.2.0/router-view.js": [
+      "aurelia-dependency-injection",
+      "aurelia-binding",
+      "aurelia-templating",
+      "aurelia-router",
+      "aurelia-metadata",
+      "aurelia-pal"
+    ],
+    "npm:aurelia-templating-router@1.2.0/route-loader.js": [
+      "aurelia-dependency-injection",
+      "aurelia-templating",
+      "aurelia-router",
+      "aurelia-path",
+      "aurelia-metadata",
+      "./router-view"
+    ],
+    "npm:aurelia-templating-router@1.2.0/route-href.js": [
+      "aurelia-templating",
+      "aurelia-dependency-injection",
+      "aurelia-router",
+      "aurelia-pal",
+      "aurelia-logging"
+    ],
+    "npm:aurelia-binding@1.5.0.js": [
+      "npm:aurelia-binding@1.5.0/aurelia-binding"
+    ],
+    "npm:aurelia-templating@1.6.0.js": [
+      "npm:aurelia-templating@1.6.0/aurelia-templating"
+    ],
+    "npm:aurelia-binding@1.5.0/aurelia-binding.js": [
+      "aurelia-logging",
+      "aurelia-pal",
+      "aurelia-task-queue",
+      "aurelia-metadata"
+    ],
+    "npm:aurelia-templating@1.6.0/aurelia-templating.js": [
+      "aurelia-logging",
+      "aurelia-metadata",
+      "aurelia-pal",
+      "aurelia-path",
+      "aurelia-loader",
+      "aurelia-dependency-injection",
+      "aurelia-binding",
+      "aurelia-task-queue"
+    ],
+    "npm:aurelia-task-queue@1.2.1.js": [
+      "npm:aurelia-task-queue@1.2.1/aurelia-task-queue"
+    ],
+    "npm:aurelia-task-queue@1.2.1/aurelia-task-queue.js": [
+      "aurelia-pal"
+    ],
+    "npm:aurelia-templating-resources@1.5.4.js": [
+      "npm:aurelia-templating-resources@1.5.4/aurelia-templating-resources"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/aurelia-templating-resources.js": [
+      "aurelia-pal",
+      "./compose",
+      "./if",
+      "./else",
+      "./with",
+      "./repeat",
+      "./show",
+      "./hide",
+      "./sanitize-html",
+      "./replaceable",
+      "./focus",
+      "aurelia-templating",
+      "./css-resource",
+      "./html-sanitizer",
+      "./attr-binding-behavior",
+      "./binding-mode-behaviors",
+      "./throttle-binding-behavior",
+      "./debounce-binding-behavior",
+      "./self-binding-behavior",
+      "./signal-binding-behavior",
+      "./binding-signaler",
+      "./update-trigger-binding-behavior",
+      "./abstract-repeater",
+      "./repeat-strategy-locator",
+      "./html-resource-plugin",
+      "./null-repeat-strategy",
+      "./array-repeat-strategy",
+      "./map-repeat-strategy",
+      "./set-repeat-strategy",
+      "./number-repeat-strategy",
+      "./repeat-utilities",
+      "./analyze-view-factory",
+      "./aurelia-hide-style"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/signal-binding-behavior.js": [
+      "./binding-signaler"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/repeat-strategy-locator.js": [
+      "./null-repeat-strategy",
+      "./array-repeat-strategy",
+      "./map-repeat-strategy",
+      "./set-repeat-strategy",
+      "./number-repeat-strategy"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/map-repeat-strategy.js": [
+      "./repeat-utilities"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/set-repeat-strategy.js": [
+      "./repeat-utilities"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/number-repeat-strategy.js": [
+      "./repeat-utilities"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/aurelia-hide-style.js": [
+      "aurelia-pal"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/if.js": [
+      "aurelia-templating",
+      "aurelia-dependency-injection",
+      "./if-core"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/compose.js": [
+      "aurelia-dependency-injection",
+      "aurelia-logging",
+      "aurelia-task-queue",
+      "aurelia-templating",
+      "aurelia-pal"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/else.js": [
+      "aurelia-templating",
+      "aurelia-dependency-injection",
+      "./if-core"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/show.js": [
+      "aurelia-dependency-injection",
+      "aurelia-templating",
+      "aurelia-pal",
+      "./aurelia-hide-style"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/repeat.js": [
+      "aurelia-dependency-injection",
+      "aurelia-binding",
+      "aurelia-templating",
+      "./repeat-strategy-locator",
+      "./repeat-utilities",
+      "./analyze-view-factory",
+      "./abstract-repeater"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/hide.js": [
+      "aurelia-dependency-injection",
+      "aurelia-templating",
+      "aurelia-pal",
+      "./aurelia-hide-style"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/sanitize-html.js": [
+      "aurelia-binding",
+      "aurelia-dependency-injection",
+      "./html-sanitizer"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/focus.js": [
+      "aurelia-templating",
+      "aurelia-binding",
+      "aurelia-dependency-injection",
+      "aurelia-task-queue",
+      "aurelia-pal"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/replaceable.js": [
+      "aurelia-dependency-injection",
+      "aurelia-templating"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/css-resource.js": [
+      "aurelia-templating",
+      "aurelia-loader",
+      "aurelia-dependency-injection",
+      "aurelia-path",
+      "aurelia-pal"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/attr-binding-behavior.js": [
+      "aurelia-binding"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/binding-mode-behaviors.js": [
+      "aurelia-binding",
+      "aurelia-metadata"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/throttle-binding-behavior.js": [
+      "aurelia-binding"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/debounce-binding-behavior.js": [
+      "aurelia-binding"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/binding-signaler.js": [
+      "aurelia-binding"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/update-trigger-binding-behavior.js": [
+      "aurelia-binding"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/html-resource-plugin.js": [
+      "aurelia-templating",
+      "./dynamic-element"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/array-repeat-strategy.js": [
+      "./repeat-utilities",
+      "aurelia-binding"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/repeat-utilities.js": [
+      "aurelia-binding"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/with.js": [
+      "aurelia-dependency-injection",
+      "aurelia-templating",
+      "aurelia-binding"
+    ],
+    "npm:aurelia-templating-resources@1.5.4/dynamic-element.js": [
+      "aurelia-templating"
+    ],
+    "npm:aurelia-polyfills@1.2.2.js": [
+      "npm:aurelia-polyfills@1.2.2/aurelia-polyfills"
+    ],
+    "npm:aurelia-polyfills@1.2.2/aurelia-polyfills.js": [
+      "aurelia-pal"
+    ],
+    "npm:aurelia-templating-binding@1.4.0.js": [
+      "npm:aurelia-templating-binding@1.4.0/aurelia-templating-binding"
+    ],
+    "npm:aurelia-templating-binding@1.4.0/aurelia-templating-binding.js": [
+      "aurelia-logging",
+      "aurelia-binding",
+      "aurelia-templating"
+    ],
+    "npm:aurelia-animator-css@1.0.4.js": [
+      "npm:aurelia-animator-css@1.0.4/aurelia-animator-css"
+    ],
+    "npm:aurelia-animator-css@1.0.4/aurelia-animator-css.js": [
+      "aurelia-templating",
+      "aurelia-pal"
+    ],
+    "npm:aurelia-fetch-client@1.1.3.js": [
+      "npm:aurelia-fetch-client@1.1.3/aurelia-fetch-client"
+    ],
+    "npm:aurelia-bootstrapper@1.0.1.js": [
+      "npm:aurelia-bootstrapper@1.0.1/aurelia-bootstrapper"
+    ],
+    "npm:aurelia-bootstrapper@1.0.1/aurelia-bootstrapper.js": [
+      "aurelia-pal",
+      "aurelia-pal-browser",
+      "aurelia-polyfills"
+    ],
+    "npm:aurelia-pal-browser@1.3.0.js": [
+      "npm:aurelia-pal-browser@1.3.0/aurelia-pal-browser"
+    ],
+    "npm:aurelia-pal-browser@1.3.0/aurelia-pal-browser.js": [
+      "aurelia-pal"
+    ],
+    "npm:aurelia-framework@1.1.5.js": [
+      "npm:aurelia-framework@1.1.5/aurelia-framework"
+    ],
+    "npm:aurelia-framework@1.1.5/aurelia-framework.js": [
+      "aurelia-dependency-injection",
+      "aurelia-binding",
+      "aurelia-metadata",
+      "aurelia-templating",
+      "aurelia-loader",
+      "aurelia-task-queue",
+      "aurelia-path",
+      "aurelia-pal",
+      "aurelia-logging"
+    ],
+    "github:systemjs/plugin-json@0.3.0.js": [
+      "github:systemjs/plugin-json@0.3.0/json"
+    ],
+    "github:systemjs/plugin-text@0.0.8.js": [
+      "github:systemjs/plugin-text@0.0.8/text"
+    ],
+    "github:systemjs/plugin-css@0.1.36.js": [
+      "github:systemjs/plugin-css@0.1.36/css"
+    ],
+    "npm:jquery@3.3.1.js": [
+      "npm:jquery@3.3.1/dist/jquery.js"
+    ],
+    "github:twbs/bootstrap@3.3.7.js": [
+      "github:twbs/bootstrap@3.3.7/js/bootstrap.js"
+    ],
+    "github:twbs/bootstrap@3.3.7/js/bootstrap.js": [
+      "jquery"
+    ],
+    "npm:esutils@2.0.2.js": [
+      "npm:esutils@2.0.2/lib/utils.js"
+    ],
+    "npm:esutils@2.0.2/lib/utils.js": [
+      "./ast",
+      "./code",
+      "./keyword"
+    ],
+    "npm:esutils@2.0.2/lib/keyword.js": [
+      "./code"
+    ],
+    "npm:escodegen@1.9.0.js": [
+      "npm:escodegen@1.9.0/escodegen.js"
+    ],
+    "npm:escodegen@1.9.0/escodegen.js": [
+      "estraverse",
+      "esutils",
+      "source-map",
+      "./package.json!systemjs-json"
+    ],
+    "npm:estraverse@4.2.0.js": [
+      "npm:estraverse@4.2.0/estraverse.js"
+    ],
+    "npm:estraverse@4.2.0/estraverse.js": [
+      "./package.json!systemjs-json"
+    ],
+    "npm:source-map@0.5.7.js": [
+      "npm:source-map@0.5.7/source-map.js"
+    ],
+    "npm:source-map@0.5.7/source-map.js": [
+      "./lib/source-map-generator",
+      "./lib/source-map-consumer",
+      "./lib/source-node"
+    ],
+    "npm:source-map@0.5.7/lib/source-map-generator.js": [
+      "./base64-vlq",
+      "./util",
+      "./array-set",
+      "./mapping-list"
+    ],
+    "npm:source-map@0.5.7/lib/source-map-consumer.js": [
+      "./util",
+      "./binary-search",
+      "./array-set",
+      "./base64-vlq",
+      "./quick-sort"
+    ],
+    "npm:source-map@0.5.7/lib/source-node.js": [
+      "./source-map-generator",
+      "./util",
+      "process"
+    ],
+    "github:jspm/nodelibs-process@0.1.2.js": [
+      "github:jspm/nodelibs-process@0.1.2/index"
+    ],
+    "github:jspm/nodelibs-process@0.1.2/index.js": [
+      "process"
+    ],
+    "npm:process@0.11.10.js": [
+      "npm:process@0.11.10/browser.js"
+    ],
+    "npm:source-map@0.5.7/lib/array-set.js": [
+      "./util"
+    ],
+    "npm:source-map@0.5.7/lib/base64-vlq.js": [
+      "./base64"
+    ],
+    "npm:source-map@0.5.7/lib/mapping-list.js": [
+      "./util"
+    ],
+    "npm:esprima@4.0.0.js": [
+      "npm:esprima@4.0.0/dist/esprima.js"
+    ],
+    "npm:escope@3.6.0.js": [
+      "npm:escope@3.6.0/lib/index.js"
+    ],
+    "npm:escope@3.6.0/lib/index.js": [
+      "assert",
+      "./scope-manager",
+      "./referencer",
+      "./reference",
+      "./variable",
+      "./scope",
+      "../package.json!systemjs-json"
+    ],
+    "github:jspm/nodelibs-assert@0.1.0.js": [
+      "github:jspm/nodelibs-assert@0.1.0/index"
+    ],
+    "npm:escope@3.6.0/lib/scope-manager.js": [
+      "es6-weak-map",
+      "./scope",
+      "assert"
+    ],
+    "npm:escope@3.6.0/lib/referencer.js": [
+      "estraverse",
+      "esrecurse",
+      "./reference",
+      "./variable",
+      "./pattern-visitor",
+      "./definition",
+      "assert",
+      "process"
+    ],
+    "npm:escope@3.6.0/lib/scope.js": [
+      "estraverse",
+      "es6-map",
+      "./reference",
+      "./variable",
+      "./definition",
+      "assert"
+    ],
+    "npm:esrecurse@4.2.0.js": [
+      "npm:esrecurse@4.2.0/esrecurse.js"
+    ],
+    "npm:escope@3.6.0/lib/definition.js": [
+      "./variable"
+    ],
+    "npm:es6-weak-map@2.0.2.js": [
+      "npm:es6-weak-map@2.0.2/index"
+    ],
+    "github:jspm/nodelibs-assert@0.1.0/index.js": [
+      "assert"
+    ],
+    "npm:escope@3.6.0/lib/pattern-visitor.js": [
+      "estraverse",
+      "esrecurse"
+    ],
+    "npm:es6-map@0.1.5.js": [
+      "npm:es6-map@0.1.5/index"
+    ],
+    "npm:esrecurse@4.2.0/esrecurse.js": [
+      "object-assign",
+      "estraverse",
+      "./package.json!systemjs-json"
+    ],
+    "npm:assert@1.4.1.js": [
+      "npm:assert@1.4.1/assert.js"
+    ],
+    "npm:es6-weak-map@2.0.2/index.js": [
+      "./is-implemented",
+      "./polyfill"
+    ],
+    "npm:es6-map@0.1.5/index.js": [
+      "./is-implemented",
+      "./polyfill"
+    ],
+    "npm:object-assign@4.1.1.js": [
+      "npm:object-assign@4.1.1/index"
+    ],
+    "npm:assert@1.4.1/assert.js": [
+      "util",
+      "buffer"
+    ],
+    "npm:es6-weak-map@2.0.2/polyfill.js": [
+      "es5-ext/object/set-prototype-of",
+      "es5-ext/object/valid-object",
+      "es5-ext/object/valid-value",
+      "es5-ext/string/random-uniq",
+      "d",
+      "es6-iterator/get",
+      "es6-iterator/for-of",
+      "es6-symbol",
+      "./is-native-implemented"
+    ],
+    "github:jspm/nodelibs-buffer@0.1.1.js": [
+      "github:jspm/nodelibs-buffer@0.1.1/index"
+    ],
+    "github:jspm/nodelibs-buffer@0.1.1/index.js": [
+      "buffer"
+    ],
+    "npm:buffer@5.0.8.js": [
+      "npm:buffer@5.0.8/index.js"
+    ],
+    "npm:buffer@5.0.8/index.js": [
+      "base64-js",
+      "ieee754"
+    ],
+    "npm:base64-js@1.2.1.js": [
+      "npm:base64-js@1.2.1/index.js"
+    ],
+    "npm:ieee754@1.1.8.js": [
+      "npm:ieee754@1.1.8/index.js"
+    ],
+    "npm:es6-map@0.1.5/polyfill.js": [
+      "es5-ext/array/#/clear",
+      "es5-ext/array/#/e-index-of",
+      "es5-ext/object/set-prototype-of",
+      "es5-ext/object/valid-callable",
+      "es5-ext/object/valid-value",
+      "d",
+      "event-emitter",
+      "es6-symbol",
+      "es6-iterator/valid-iterable",
+      "es6-iterator/for-of",
+      "./lib/iterator",
+      "./is-native-implemented"
+    ],
+    "npm:es5-ext@0.10.35/object/set-prototype-of.js": [
+      "./set-prototype-of/index"
+    ],
+    "npm:util@0.10.3.js": [
+      "npm:util@0.10.3/util.js"
+    ],
+    "npm:d@1.0.0.js": [
+      "npm:d@1.0.0/index"
+    ],
+    "npm:es5-ext@0.10.35/object/valid-value.js": [
+      "./is-value"
+    ],
+    "npm:es6-symbol@3.1.1.js": [
+      "npm:es6-symbol@3.1.1/index"
+    ],
+    "npm:es5-ext@0.10.35/object/valid-object.js": [
+      "./is-object"
+    ],
+    "npm:es6-iterator@2.0.3/for-of.js": [
+      "es5-ext/function/is-arguments",
+      "es5-ext/object/valid-callable",
+      "es5-ext/string/is-string",
+      "./get"
+    ],
+    "npm:es6-iterator@2.0.3/get.js": [
+      "es5-ext/function/is-arguments",
+      "es5-ext/string/is-string",
+      "./array",
+      "./string",
+      "./valid-iterable",
+      "es6-symbol"
+    ],
+    "npm:event-emitter@0.3.5.js": [
+      "npm:event-emitter@0.3.5/index"
+    ],
+    "npm:es6-iterator@2.0.3/valid-iterable.js": [
+      "./is-iterable"
+    ],
+    "npm:es5-ext@0.10.35/array/#/clear.js": [
+      "../../object/valid-value"
+    ],
+    "npm:es5-ext@0.10.35/array/#/e-index-of.js": [
+      "../../number/is-nan/index",
+      "../../number/to-pos-integer",
+      "../../object/valid-value"
+    ],
+    "npm:es6-map@0.1.5/lib/iterator.js": [
+      "es5-ext/object/set-prototype-of",
+      "d",
+      "es6-iterator",
+      "es6-symbol",
+      "./iterator-kinds"
+    ],
+    "npm:es5-ext@0.10.35/object/set-prototype-of/index.js": [
+      "./is-implemented",
+      "./shim"
+    ],
+    "npm:es5-ext@0.10.35/object/is-value.js": [
+      "../function/noop"
+    ],
+    "npm:es5-ext@0.10.35/object/is-object.js": [
+      "./is-value"
+    ],
+    "npm:es6-symbol@3.1.1/index.js": [
+      "./is-implemented",
+      "./polyfill"
+    ],
+    "npm:util@0.10.3/util.js": [
+      "./support/isBufferBrowser",
+      "inherits",
+      "process"
+    ],
+    "npm:d@1.0.0/index.js": [
+      "es5-ext/object/assign",
+      "es5-ext/object/normalize-options",
+      "es5-ext/object/is-callable",
+      "es5-ext/string/#/contains"
+    ],
+    "npm:es6-iterator@2.0.3/array.js": [
+      "es5-ext/object/set-prototype-of",
+      "es5-ext/string/#/contains",
+      "d",
+      "es6-symbol",
+      "./index"
+    ],
+    "npm:es6-iterator@2.0.3/string.js": [
+      "es5-ext/object/set-prototype-of",
+      "d",
+      "es6-symbol",
+      "./index"
+    ],
+    "npm:event-emitter@0.3.5/index.js": [
+      "d",
+      "es5-ext/object/valid-callable"
+    ],
+    "npm:es5-ext@0.10.35/number/is-nan/index.js": [
+      "./is-implemented",
+      "./shim"
+    ],
+    "npm:es5-ext@0.10.35/number/to-pos-integer.js": [
+      "./to-integer"
+    ],
+    "npm:es6-iterator@2.0.3.js": [
+      "npm:es6-iterator@2.0.3/index"
+    ],
+    "npm:es6-iterator@2.0.3/is-iterable.js": [
+      "es5-ext/function/is-arguments",
+      "es5-ext/object/is-value",
+      "es5-ext/string/is-string",
+      "es6-symbol"
+    ],
+    "npm:es6-map@0.1.5/lib/iterator-kinds.js": [
+      "es5-ext/object/primitive-set"
+    ],
+    "npm:es5-ext@0.10.35/object/set-prototype-of/shim.js": [
+      "../is-object",
+      "../valid-value",
+      "../create"
+    ],
+    "npm:inherits@2.0.1.js": [
+      "npm:inherits@2.0.1/inherits_browser.js"
+    ],
+    "npm:es5-ext@0.10.35/string/#/contains.js": [
+      "./contains/index"
+    ],
+    "npm:es5-ext@0.10.35/object/assign.js": [
+      "./assign/index"
+    ],
+    "npm:es6-symbol@3.1.1/polyfill.js": [
+      "d",
+      "./validate-symbol"
+    ],
+    "npm:es5-ext@0.10.35/object/normalize-options.js": [
+      "./is-value",
+      "process"
+    ],
+    "npm:es6-iterator@2.0.3/index.js": [
+      "es5-ext/array/#/clear",
+      "es5-ext/object/assign",
+      "es5-ext/object/valid-callable",
+      "es5-ext/object/valid-value",
+      "d",
+      "d/auto-bind",
+      "es6-symbol"
+    ],
+    "npm:es5-ext@0.10.35/number/to-integer.js": [
+      "../math/sign/index"
+    ],
+    "npm:es5-ext@0.10.35/object/create.js": [
+      "./set-prototype-of/is-implemented",
+      "./set-prototype-of/shim"
+    ],
+    "npm:es5-ext@0.10.35/string/#/contains/index.js": [
+      "./is-implemented",
+      "./shim"
+    ],
+    "npm:es5-ext@0.10.35/object/assign/index.js": [
+      "./is-implemented",
+      "./shim"
+    ],
+    "npm:es6-symbol@3.1.1/validate-symbol.js": [
+      "./is-symbol"
+    ],
+    "npm:d@1.0.0/auto-bind.js": [
+      "es5-ext/object/copy",
+      "es5-ext/object/normalize-options",
+      "es5-ext/object/valid-callable",
+      "es5-ext/object/map",
+      "es5-ext/object/valid-value"
+    ],
+    "npm:es5-ext@0.10.35/math/sign/index.js": [
+      "./is-implemented",
+      "./shim"
+    ],
+    "npm:es5-ext@0.10.35/object/assign/shim.js": [
+      "../keys/index",
+      "../valid-value"
+    ],
+    "npm:es5-ext@0.10.35/object/copy.js": [
+      "../array/from/index",
+      "./assign/index",
+      "./valid-value"
+    ],
+    "npm:es5-ext@0.10.35/object/map.js": [
+      "./valid-callable",
+      "./for-each"
+    ],
+    "npm:es5-ext@0.10.35/array/from/index.js": [
+      "./is-implemented",
+      "./shim"
+    ],
+    "npm:es5-ext@0.10.35/object/keys/index.js": [
+      "./is-implemented",
+      "./shim"
+    ],
+    "npm:es5-ext@0.10.35/object/for-each.js": [
+      "./_iterate"
+    ],
+    "npm:es5-ext@0.10.35/array/from/shim.js": [
+      "es6-symbol",
+      "../../function/is-arguments",
+      "../../function/is-function",
+      "../../number/to-pos-integer",
+      "../../object/valid-callable",
+      "../../object/valid-value",
+      "../../object/is-value",
+      "../../string/is-string"
+    ],
+    "npm:es5-ext@0.10.35/object/keys/shim.js": [
+      "../is-value"
+    ],
+    "npm:es5-ext@0.10.35/object/_iterate.js": [
+      "./valid-callable",
+      "./valid-value"
+    ],
+    "npm:es5-ext@0.10.35/function/is-function.js": [
+      "./noop"
+    ],
+    "npm:d3@4.10.0.js": [
+      "npm:d3@4.10.0/build/d3.js"
+    ],
+    "npm:d3@4.10.0/build/d3.js": [
+      "buffer",
+      "process"
+    ],
+    "npm:codemirror@5.33.0.js": [
+      "npm:codemirror@5.33.0/lib/codemirror.js"
+    ],
+    "npm:codemirror@5.33.0/lib/codemirror.js": [
+      "process"
+    ]
+  },
   bundles: {
-    "app-build-b610928865.js": [
+    "app-build-05118f00ce.js": [
       "app.html!github:systemjs/plugin-text@0.0.8.js",
       "app.js",
       "editor.js",
@@ -795,848 +1638,6 @@ System.config({
       "npm:util@0.10.3.js",
       "npm:util@0.10.3/support/isBufferBrowser.js",
       "npm:util@0.10.3/util.js"
-    ]
-  },
-  depCache: {
-    "app.js": [
-      "aurelia-framework",
-      "./services/log",
-      "aurelia-event-aggregator",
-      "../data/experiment_code/file1.js!text",
-      "../data/experiment_code/file2.js!text",
-      "./questions.js"
-    ],
-    "editor.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "./services/log",
-      "d3",
-      "CodeMirror",
-      "CodeMirror/mode/javascript/javascript.js",
-      "CodeMirror/lib/codemirror.css!css",
-      "CodeMirror/addon/fold/foldcode.js",
-      "CodeMirror/addon/fold/foldgutter.js",
-      "CodeMirror/addon/fold/brace-fold.js",
-      "CodeMirror/addon/fold/foldgutter.css!css"
-    ],
-    "main.js": [
-      "aurelia-framework",
-      "aurelia-logging-console",
-      "bootstrap"
-    ],
-    "minimap.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "./services/log",
-      "./parser.js",
-      "jquery",
-      "d3",
-      "./minimap_helpers.js"
-    ],
-    "parser.js": [
-      "esprima",
-      "escope",
-      "escodegen"
-    ],
-    "questions.js": [
-      "./questions_file1.js",
-      "./questions_file2.js"
-    ],
-    "services/log.js": [
-      "aurelia-framework"
-    ],
-    "npm:aurelia-logging-console@1.0.0.js": [
-      "npm:aurelia-logging-console@1.0.0/aurelia-logging-console"
-    ],
-    "npm:aurelia-logging-console@1.0.0/aurelia-logging-console.js": [
-      "aurelia-logging"
-    ],
-    "npm:aurelia-logging@1.3.1.js": [
-      "npm:aurelia-logging@1.3.1/aurelia-logging"
-    ],
-    "npm:aurelia-history-browser@1.1.0.js": [
-      "npm:aurelia-history-browser@1.1.0/aurelia-history-browser"
-    ],
-    "npm:aurelia-history-browser@1.1.0/aurelia-history-browser.js": [
-      "aurelia-pal",
-      "aurelia-history"
-    ],
-    "npm:aurelia-pal@1.4.0.js": [
-      "npm:aurelia-pal@1.4.0/aurelia-pal"
-    ],
-    "npm:aurelia-history@1.1.0.js": [
-      "npm:aurelia-history@1.1.0/aurelia-history"
-    ],
-    "npm:aurelia-loader-default@1.0.3.js": [
-      "npm:aurelia-loader-default@1.0.3/aurelia-loader-default"
-    ],
-    "npm:aurelia-loader-default@1.0.3/aurelia-loader-default.js": [
-      "aurelia-loader",
-      "aurelia-pal",
-      "aurelia-metadata"
-    ],
-    "npm:aurelia-loader@1.0.0.js": [
-      "npm:aurelia-loader@1.0.0/aurelia-loader"
-    ],
-    "npm:aurelia-metadata@1.0.3.js": [
-      "npm:aurelia-metadata@1.0.3/aurelia-metadata"
-    ],
-    "npm:aurelia-loader@1.0.0/aurelia-loader.js": [
-      "aurelia-path",
-      "aurelia-metadata"
-    ],
-    "npm:aurelia-metadata@1.0.3/aurelia-metadata.js": [
-      "aurelia-pal"
-    ],
-    "npm:aurelia-path@1.1.1.js": [
-      "npm:aurelia-path@1.1.1/aurelia-path"
-    ],
-    "npm:aurelia-templating-router@1.2.0.js": [
-      "npm:aurelia-templating-router@1.2.0/aurelia-templating-router"
-    ],
-    "npm:aurelia-templating-router@1.2.0/aurelia-templating-router.js": [
-      "aurelia-pal",
-      "aurelia-router",
-      "./route-loader",
-      "./router-view",
-      "./route-href"
-    ],
-    "npm:aurelia-router@1.4.0.js": [
-      "npm:aurelia-router@1.4.0/aurelia-router"
-    ],
-    "npm:aurelia-router@1.4.0/aurelia-router.js": [
-      "aurelia-logging",
-      "aurelia-route-recognizer",
-      "aurelia-dependency-injection",
-      "aurelia-history",
-      "aurelia-event-aggregator"
-    ],
-    "npm:aurelia-route-recognizer@1.1.1.js": [
-      "npm:aurelia-route-recognizer@1.1.1/aurelia-route-recognizer"
-    ],
-    "npm:aurelia-dependency-injection@1.3.2.js": [
-      "npm:aurelia-dependency-injection@1.3.2/aurelia-dependency-injection"
-    ],
-    "npm:aurelia-event-aggregator@1.0.1.js": [
-      "npm:aurelia-event-aggregator@1.0.1/aurelia-event-aggregator"
-    ],
-    "npm:aurelia-route-recognizer@1.1.1/aurelia-route-recognizer.js": [
-      "aurelia-path"
-    ],
-    "npm:aurelia-dependency-injection@1.3.2/aurelia-dependency-injection.js": [
-      "aurelia-metadata",
-      "aurelia-pal"
-    ],
-    "npm:aurelia-event-aggregator@1.0.1/aurelia-event-aggregator.js": [
-      "aurelia-logging"
-    ],
-    "npm:aurelia-templating-router@1.2.0/route-loader.js": [
-      "aurelia-dependency-injection",
-      "aurelia-templating",
-      "aurelia-router",
-      "aurelia-path",
-      "aurelia-metadata",
-      "./router-view"
-    ],
-    "npm:aurelia-templating-router@1.2.0/router-view.js": [
-      "aurelia-dependency-injection",
-      "aurelia-binding",
-      "aurelia-templating",
-      "aurelia-router",
-      "aurelia-metadata",
-      "aurelia-pal"
-    ],
-    "npm:aurelia-templating-router@1.2.0/route-href.js": [
-      "aurelia-templating",
-      "aurelia-dependency-injection",
-      "aurelia-router",
-      "aurelia-pal",
-      "aurelia-logging"
-    ],
-    "npm:aurelia-templating@1.6.0.js": [
-      "npm:aurelia-templating@1.6.0/aurelia-templating"
-    ],
-    "npm:aurelia-binding@1.5.0.js": [
-      "npm:aurelia-binding@1.5.0/aurelia-binding"
-    ],
-    "npm:aurelia-templating@1.6.0/aurelia-templating.js": [
-      "aurelia-logging",
-      "aurelia-metadata",
-      "aurelia-pal",
-      "aurelia-path",
-      "aurelia-loader",
-      "aurelia-dependency-injection",
-      "aurelia-binding",
-      "aurelia-task-queue"
-    ],
-    "npm:aurelia-binding@1.5.0/aurelia-binding.js": [
-      "aurelia-logging",
-      "aurelia-pal",
-      "aurelia-task-queue",
-      "aurelia-metadata"
-    ],
-    "npm:aurelia-task-queue@1.2.1.js": [
-      "npm:aurelia-task-queue@1.2.1/aurelia-task-queue"
-    ],
-    "npm:aurelia-task-queue@1.2.1/aurelia-task-queue.js": [
-      "aurelia-pal"
-    ],
-    "npm:aurelia-templating-resources@1.5.4.js": [
-      "npm:aurelia-templating-resources@1.5.4/aurelia-templating-resources"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/aurelia-templating-resources.js": [
-      "aurelia-pal",
-      "./compose",
-      "./if",
-      "./else",
-      "./with",
-      "./repeat",
-      "./show",
-      "./hide",
-      "./sanitize-html",
-      "./replaceable",
-      "./focus",
-      "aurelia-templating",
-      "./css-resource",
-      "./html-sanitizer",
-      "./attr-binding-behavior",
-      "./binding-mode-behaviors",
-      "./throttle-binding-behavior",
-      "./debounce-binding-behavior",
-      "./self-binding-behavior",
-      "./signal-binding-behavior",
-      "./binding-signaler",
-      "./update-trigger-binding-behavior",
-      "./abstract-repeater",
-      "./repeat-strategy-locator",
-      "./html-resource-plugin",
-      "./null-repeat-strategy",
-      "./array-repeat-strategy",
-      "./map-repeat-strategy",
-      "./set-repeat-strategy",
-      "./number-repeat-strategy",
-      "./repeat-utilities",
-      "./analyze-view-factory",
-      "./aurelia-hide-style"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/signal-binding-behavior.js": [
-      "./binding-signaler"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/repeat-strategy-locator.js": [
-      "./null-repeat-strategy",
-      "./array-repeat-strategy",
-      "./map-repeat-strategy",
-      "./set-repeat-strategy",
-      "./number-repeat-strategy"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/map-repeat-strategy.js": [
-      "./repeat-utilities"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/set-repeat-strategy.js": [
-      "./repeat-utilities"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/number-repeat-strategy.js": [
-      "./repeat-utilities"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/aurelia-hide-style.js": [
-      "aurelia-pal"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/compose.js": [
-      "aurelia-dependency-injection",
-      "aurelia-logging",
-      "aurelia-task-queue",
-      "aurelia-templating",
-      "aurelia-pal"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/if.js": [
-      "aurelia-templating",
-      "aurelia-dependency-injection",
-      "./if-core"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/else.js": [
-      "aurelia-templating",
-      "aurelia-dependency-injection",
-      "./if-core"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/with.js": [
-      "aurelia-dependency-injection",
-      "aurelia-templating",
-      "aurelia-binding"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/repeat.js": [
-      "aurelia-dependency-injection",
-      "aurelia-binding",
-      "aurelia-templating",
-      "./repeat-strategy-locator",
-      "./repeat-utilities",
-      "./analyze-view-factory",
-      "./abstract-repeater"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/show.js": [
-      "aurelia-dependency-injection",
-      "aurelia-templating",
-      "aurelia-pal",
-      "./aurelia-hide-style"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/hide.js": [
-      "aurelia-dependency-injection",
-      "aurelia-templating",
-      "aurelia-pal",
-      "./aurelia-hide-style"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/sanitize-html.js": [
-      "aurelia-binding",
-      "aurelia-dependency-injection",
-      "./html-sanitizer"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/replaceable.js": [
-      "aurelia-dependency-injection",
-      "aurelia-templating"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/focus.js": [
-      "aurelia-templating",
-      "aurelia-binding",
-      "aurelia-dependency-injection",
-      "aurelia-task-queue",
-      "aurelia-pal"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/css-resource.js": [
-      "aurelia-templating",
-      "aurelia-loader",
-      "aurelia-dependency-injection",
-      "aurelia-path",
-      "aurelia-pal"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/attr-binding-behavior.js": [
-      "aurelia-binding"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/binding-mode-behaviors.js": [
-      "aurelia-binding",
-      "aurelia-metadata"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/throttle-binding-behavior.js": [
-      "aurelia-binding"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/debounce-binding-behavior.js": [
-      "aurelia-binding"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/binding-signaler.js": [
-      "aurelia-binding"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/update-trigger-binding-behavior.js": [
-      "aurelia-binding"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/html-resource-plugin.js": [
-      "aurelia-templating",
-      "./dynamic-element"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/array-repeat-strategy.js": [
-      "./repeat-utilities",
-      "aurelia-binding"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/repeat-utilities.js": [
-      "aurelia-binding"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/dynamic-element.js": [
-      "aurelia-templating"
-    ],
-    "npm:aurelia-polyfills@1.2.2.js": [
-      "npm:aurelia-polyfills@1.2.2/aurelia-polyfills"
-    ],
-    "npm:aurelia-polyfills@1.2.2/aurelia-polyfills.js": [
-      "aurelia-pal"
-    ],
-    "npm:aurelia-templating-binding@1.4.0.js": [
-      "npm:aurelia-templating-binding@1.4.0/aurelia-templating-binding"
-    ],
-    "npm:aurelia-templating-binding@1.4.0/aurelia-templating-binding.js": [
-      "aurelia-logging",
-      "aurelia-binding",
-      "aurelia-templating"
-    ],
-    "npm:aurelia-animator-css@1.0.4.js": [
-      "npm:aurelia-animator-css@1.0.4/aurelia-animator-css"
-    ],
-    "npm:aurelia-animator-css@1.0.4/aurelia-animator-css.js": [
-      "aurelia-templating",
-      "aurelia-pal"
-    ],
-    "npm:aurelia-fetch-client@1.1.3.js": [
-      "npm:aurelia-fetch-client@1.1.3/aurelia-fetch-client"
-    ],
-    "npm:aurelia-bootstrapper@1.0.1.js": [
-      "npm:aurelia-bootstrapper@1.0.1/aurelia-bootstrapper"
-    ],
-    "npm:aurelia-bootstrapper@1.0.1/aurelia-bootstrapper.js": [
-      "aurelia-pal",
-      "aurelia-pal-browser",
-      "aurelia-polyfills"
-    ],
-    "npm:aurelia-pal-browser@1.3.0.js": [
-      "npm:aurelia-pal-browser@1.3.0/aurelia-pal-browser"
-    ],
-    "npm:aurelia-pal-browser@1.3.0/aurelia-pal-browser.js": [
-      "aurelia-pal"
-    ],
-    "npm:aurelia-framework@1.1.5.js": [
-      "npm:aurelia-framework@1.1.5/aurelia-framework"
-    ],
-    "npm:aurelia-framework@1.1.5/aurelia-framework.js": [
-      "aurelia-dependency-injection",
-      "aurelia-binding",
-      "aurelia-metadata",
-      "aurelia-templating",
-      "aurelia-loader",
-      "aurelia-task-queue",
-      "aurelia-path",
-      "aurelia-pal",
-      "aurelia-logging"
-    ],
-    "github:systemjs/plugin-json@0.3.0.js": [
-      "github:systemjs/plugin-json@0.3.0/json"
-    ],
-    "github:systemjs/plugin-text@0.0.8.js": [
-      "github:systemjs/plugin-text@0.0.8/text"
-    ],
-    "github:systemjs/plugin-css@0.1.36.js": [
-      "github:systemjs/plugin-css@0.1.36/css"
-    ],
-    "npm:jquery@3.3.1.js": [
-      "npm:jquery@3.3.1/dist/jquery.js"
-    ],
-    "github:twbs/bootstrap@3.3.7.js": [
-      "github:twbs/bootstrap@3.3.7/js/bootstrap.js"
-    ],
-    "github:twbs/bootstrap@3.3.7/js/bootstrap.js": [
-      "jquery"
-    ],
-    "npm:esutils@2.0.2.js": [
-      "npm:esutils@2.0.2/lib/utils.js"
-    ],
-    "npm:esutils@2.0.2/lib/utils.js": [
-      "./ast",
-      "./code",
-      "./keyword"
-    ],
-    "npm:esutils@2.0.2/lib/keyword.js": [
-      "./code"
-    ],
-    "npm:escodegen@1.9.0.js": [
-      "npm:escodegen@1.9.0/escodegen.js"
-    ],
-    "npm:escodegen@1.9.0/escodegen.js": [
-      "estraverse",
-      "esutils",
-      "source-map",
-      "./package.json!systemjs-json"
-    ],
-    "npm:estraverse@4.2.0.js": [
-      "npm:estraverse@4.2.0/estraverse.js"
-    ],
-    "npm:estraverse@4.2.0/estraverse.js": [
-      "./package.json!systemjs-json"
-    ],
-    "npm:source-map@0.5.7.js": [
-      "npm:source-map@0.5.7/source-map.js"
-    ],
-    "npm:source-map@0.5.7/source-map.js": [
-      "./lib/source-map-generator",
-      "./lib/source-map-consumer",
-      "./lib/source-node"
-    ],
-    "npm:source-map@0.5.7/lib/source-map-generator.js": [
-      "./base64-vlq",
-      "./util",
-      "./array-set",
-      "./mapping-list"
-    ],
-    "npm:source-map@0.5.7/lib/source-map-consumer.js": [
-      "./util",
-      "./binary-search",
-      "./array-set",
-      "./base64-vlq",
-      "./quick-sort"
-    ],
-    "npm:source-map@0.5.7/lib/source-node.js": [
-      "./source-map-generator",
-      "./util",
-      "process"
-    ],
-    "github:jspm/nodelibs-process@0.1.2.js": [
-      "github:jspm/nodelibs-process@0.1.2/index"
-    ],
-    "github:jspm/nodelibs-process@0.1.2/index.js": [
-      "process"
-    ],
-    "npm:process@0.11.10.js": [
-      "npm:process@0.11.10/browser.js"
-    ],
-    "npm:source-map@0.5.7/lib/base64-vlq.js": [
-      "./base64"
-    ],
-    "npm:source-map@0.5.7/lib/array-set.js": [
-      "./util"
-    ],
-    "npm:source-map@0.5.7/lib/mapping-list.js": [
-      "./util"
-    ],
-    "npm:esprima@4.0.0.js": [
-      "npm:esprima@4.0.0/dist/esprima.js"
-    ],
-    "npm:escope@3.6.0.js": [
-      "npm:escope@3.6.0/lib/index.js"
-    ],
-    "npm:escope@3.6.0/lib/index.js": [
-      "assert",
-      "./scope-manager",
-      "./referencer",
-      "./reference",
-      "./variable",
-      "./scope",
-      "../package.json!systemjs-json"
-    ],
-    "github:jspm/nodelibs-assert@0.1.0.js": [
-      "github:jspm/nodelibs-assert@0.1.0/index"
-    ],
-    "npm:escope@3.6.0/lib/scope-manager.js": [
-      "es6-weak-map",
-      "./scope",
-      "assert"
-    ],
-    "npm:escope@3.6.0/lib/referencer.js": [
-      "estraverse",
-      "esrecurse",
-      "./reference",
-      "./variable",
-      "./pattern-visitor",
-      "./definition",
-      "assert",
-      "process"
-    ],
-    "npm:escope@3.6.0/lib/scope.js": [
-      "estraverse",
-      "es6-map",
-      "./reference",
-      "./variable",
-      "./definition",
-      "assert"
-    ],
-    "npm:es6-weak-map@2.0.2.js": [
-      "npm:es6-weak-map@2.0.2/index"
-    ],
-    "npm:esrecurse@4.2.0.js": [
-      "npm:esrecurse@4.2.0/esrecurse.js"
-    ],
-    "npm:escope@3.6.0/lib/definition.js": [
-      "./variable"
-    ],
-    "npm:es6-map@0.1.5.js": [
-      "npm:es6-map@0.1.5/index"
-    ],
-    "github:jspm/nodelibs-assert@0.1.0/index.js": [
-      "assert"
-    ],
-    "npm:escope@3.6.0/lib/pattern-visitor.js": [
-      "estraverse",
-      "esrecurse"
-    ],
-    "npm:es6-weak-map@2.0.2/index.js": [
-      "./is-implemented",
-      "./polyfill"
-    ],
-    "npm:es6-map@0.1.5/index.js": [
-      "./is-implemented",
-      "./polyfill"
-    ],
-    "npm:assert@1.4.1.js": [
-      "npm:assert@1.4.1/assert.js"
-    ],
-    "npm:esrecurse@4.2.0/esrecurse.js": [
-      "object-assign",
-      "estraverse",
-      "./package.json!systemjs-json"
-    ],
-    "npm:object-assign@4.1.1.js": [
-      "npm:object-assign@4.1.1/index"
-    ],
-    "npm:assert@1.4.1/assert.js": [
-      "util",
-      "buffer"
-    ],
-    "npm:es6-weak-map@2.0.2/polyfill.js": [
-      "es5-ext/object/set-prototype-of",
-      "es5-ext/object/valid-object",
-      "es5-ext/object/valid-value",
-      "es5-ext/string/random-uniq",
-      "d",
-      "es6-iterator/get",
-      "es6-iterator/for-of",
-      "es6-symbol",
-      "./is-native-implemented"
-    ],
-    "npm:es6-map@0.1.5/polyfill.js": [
-      "es5-ext/array/#/clear",
-      "es5-ext/array/#/e-index-of",
-      "es5-ext/object/set-prototype-of",
-      "es5-ext/object/valid-callable",
-      "es5-ext/object/valid-value",
-      "d",
-      "event-emitter",
-      "es6-symbol",
-      "es6-iterator/valid-iterable",
-      "es6-iterator/for-of",
-      "./lib/iterator",
-      "./is-native-implemented"
-    ],
-    "github:jspm/nodelibs-buffer@0.1.1.js": [
-      "github:jspm/nodelibs-buffer@0.1.1/index"
-    ],
-    "github:jspm/nodelibs-buffer@0.1.1/index.js": [
-      "buffer"
-    ],
-    "npm:buffer@5.0.8.js": [
-      "npm:buffer@5.0.8/index.js"
-    ],
-    "npm:buffer@5.0.8/index.js": [
-      "base64-js",
-      "ieee754"
-    ],
-    "npm:base64-js@1.2.1.js": [
-      "npm:base64-js@1.2.1/index.js"
-    ],
-    "npm:ieee754@1.1.8.js": [
-      "npm:ieee754@1.1.8/index.js"
-    ],
-    "npm:util@0.10.3.js": [
-      "npm:util@0.10.3/util.js"
-    ],
-    "npm:es5-ext@0.10.35/object/set-prototype-of.js": [
-      "./set-prototype-of/index"
-    ],
-    "npm:es5-ext@0.10.35/object/valid-object.js": [
-      "./is-object"
-    ],
-    "npm:es5-ext@0.10.35/object/valid-value.js": [
-      "./is-value"
-    ],
-    "npm:d@1.0.0.js": [
-      "npm:d@1.0.0/index"
-    ],
-    "npm:es6-symbol@3.1.1.js": [
-      "npm:es6-symbol@3.1.1/index"
-    ],
-    "npm:es5-ext@0.10.35/array/#/clear.js": [
-      "../../object/valid-value"
-    ],
-    "npm:es5-ext@0.10.35/array/#/e-index-of.js": [
-      "../../number/is-nan/index",
-      "../../number/to-pos-integer",
-      "../../object/valid-value"
-    ],
-    "npm:event-emitter@0.3.5.js": [
-      "npm:event-emitter@0.3.5/index"
-    ],
-    "npm:es6-iterator@2.0.3/valid-iterable.js": [
-      "./is-iterable"
-    ],
-    "npm:es6-iterator@2.0.3/get.js": [
-      "es5-ext/function/is-arguments",
-      "es5-ext/string/is-string",
-      "./array",
-      "./string",
-      "./valid-iterable",
-      "es6-symbol"
-    ],
-    "npm:es6-iterator@2.0.3/for-of.js": [
-      "es5-ext/function/is-arguments",
-      "es5-ext/object/valid-callable",
-      "es5-ext/string/is-string",
-      "./get"
-    ],
-    "npm:es6-map@0.1.5/lib/iterator.js": [
-      "es5-ext/object/set-prototype-of",
-      "d",
-      "es6-iterator",
-      "es6-symbol",
-      "./iterator-kinds"
-    ],
-    "npm:es5-ext@0.10.35/object/set-prototype-of/index.js": [
-      "./is-implemented",
-      "./shim"
-    ],
-    "npm:es5-ext@0.10.35/object/is-object.js": [
-      "./is-value"
-    ],
-    "npm:es5-ext@0.10.35/object/is-value.js": [
-      "../function/noop"
-    ],
-    "npm:es6-symbol@3.1.1/index.js": [
-      "./is-implemented",
-      "./polyfill"
-    ],
-    "npm:es5-ext@0.10.35/number/is-nan/index.js": [
-      "./is-implemented",
-      "./shim"
-    ],
-    "npm:es5-ext@0.10.35/number/to-pos-integer.js": [
-      "./to-integer"
-    ],
-    "npm:es6-iterator@2.0.3.js": [
-      "npm:es6-iterator@2.0.3/index"
-    ],
-    "npm:util@0.10.3/util.js": [
-      "./support/isBufferBrowser",
-      "inherits",
-      "process"
-    ],
-    "npm:d@1.0.0/index.js": [
-      "es5-ext/object/assign",
-      "es5-ext/object/normalize-options",
-      "es5-ext/object/is-callable",
-      "es5-ext/string/#/contains"
-    ],
-    "npm:event-emitter@0.3.5/index.js": [
-      "d",
-      "es5-ext/object/valid-callable"
-    ],
-    "npm:es6-iterator@2.0.3/is-iterable.js": [
-      "es5-ext/function/is-arguments",
-      "es5-ext/object/is-value",
-      "es5-ext/string/is-string",
-      "es6-symbol"
-    ],
-    "npm:es6-iterator@2.0.3/array.js": [
-      "es5-ext/object/set-prototype-of",
-      "es5-ext/string/#/contains",
-      "d",
-      "es6-symbol",
-      "./index"
-    ],
-    "npm:es6-iterator@2.0.3/string.js": [
-      "es5-ext/object/set-prototype-of",
-      "d",
-      "es6-symbol",
-      "./index"
-    ],
-    "npm:es6-map@0.1.5/lib/iterator-kinds.js": [
-      "es5-ext/object/primitive-set"
-    ],
-    "npm:es5-ext@0.10.35/object/set-prototype-of/shim.js": [
-      "../is-object",
-      "../valid-value",
-      "../create"
-    ],
-    "npm:es5-ext@0.10.35/number/to-integer.js": [
-      "../math/sign/index"
-    ],
-    "npm:inherits@2.0.1.js": [
-      "npm:inherits@2.0.1/inherits_browser.js"
-    ],
-    "npm:es5-ext@0.10.35/object/assign.js": [
-      "./assign/index"
-    ],
-    "npm:es5-ext@0.10.35/string/#/contains.js": [
-      "./contains/index"
-    ],
-    "npm:es6-symbol@3.1.1/polyfill.js": [
-      "d",
-      "./validate-symbol"
-    ],
-    "npm:es5-ext@0.10.35/object/normalize-options.js": [
-      "./is-value",
-      "process"
-    ],
-    "npm:es6-iterator@2.0.3/index.js": [
-      "es5-ext/array/#/clear",
-      "es5-ext/object/assign",
-      "es5-ext/object/valid-callable",
-      "es5-ext/object/valid-value",
-      "d",
-      "d/auto-bind",
-      "es6-symbol"
-    ],
-    "npm:es5-ext@0.10.35/object/create.js": [
-      "./set-prototype-of/is-implemented",
-      "./set-prototype-of/shim"
-    ],
-    "npm:es5-ext@0.10.35/math/sign/index.js": [
-      "./is-implemented",
-      "./shim"
-    ],
-    "npm:es5-ext@0.10.35/object/assign/index.js": [
-      "./is-implemented",
-      "./shim"
-    ],
-    "npm:es5-ext@0.10.35/string/#/contains/index.js": [
-      "./is-implemented",
-      "./shim"
-    ],
-    "npm:es6-symbol@3.1.1/validate-symbol.js": [
-      "./is-symbol"
-    ],
-    "npm:d@1.0.0/auto-bind.js": [
-      "es5-ext/object/copy",
-      "es5-ext/object/normalize-options",
-      "es5-ext/object/valid-callable",
-      "es5-ext/object/map",
-      "es5-ext/object/valid-value"
-    ],
-    "npm:es5-ext@0.10.35/object/assign/shim.js": [
-      "../keys/index",
-      "../valid-value"
-    ],
-    "npm:es5-ext@0.10.35/object/copy.js": [
-      "../array/from/index",
-      "./assign/index",
-      "./valid-value"
-    ],
-    "npm:es5-ext@0.10.35/object/map.js": [
-      "./valid-callable",
-      "./for-each"
-    ],
-    "npm:es5-ext@0.10.35/object/keys/index.js": [
-      "./is-implemented",
-      "./shim"
-    ],
-    "npm:es5-ext@0.10.35/array/from/index.js": [
-      "./is-implemented",
-      "./shim"
-    ],
-    "npm:es5-ext@0.10.35/object/for-each.js": [
-      "./_iterate"
-    ],
-    "npm:es5-ext@0.10.35/object/keys/shim.js": [
-      "../is-value"
-    ],
-    "npm:es5-ext@0.10.35/object/_iterate.js": [
-      "./valid-callable",
-      "./valid-value"
-    ],
-    "npm:es5-ext@0.10.35/array/from/shim.js": [
-      "es6-symbol",
-      "../../function/is-arguments",
-      "../../function/is-function",
-      "../../number/to-pos-integer",
-      "../../object/valid-callable",
-      "../../object/valid-value",
-      "../../object/is-value",
-      "../../string/is-string"
-    ],
-    "npm:es5-ext@0.10.35/function/is-function.js": [
-      "./noop"
-    ],
-    "npm:d3@4.10.0.js": [
-      "npm:d3@4.10.0/build/d3.js"
-    ],
-    "npm:d3@4.10.0/build/d3.js": [
-      "buffer",
-      "process"
-    ],
-    "npm:codemirror@5.33.0.js": [
-      "npm:codemirror@5.33.0/lib/codemirror.js"
-    ],
-    "npm:codemirror@5.33.0/lib/codemirror.js": [
-      "process"
     ]
   }
 });
