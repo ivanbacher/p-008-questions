@@ -547,6 +547,8 @@ System.config({
       "aurelia-event-aggregator",
       "../data/experiment_code/file1.js!text",
       "../data/experiment_code/file2.js!text",
+      "../data/experiment_code/file3.js!text",
+      "../data/experiment_code/file4.js!text",
       "./questions.js",
       "jquery"
     ],
@@ -585,7 +587,8 @@ System.config({
     "questions.js": [
       "./questions_file1.js",
       "./questions_file2.js",
-      "./questions_file3.js"
+      "./questions_file3.js",
+      "./questions_file4.js"
     ],
     "services/log.js": [
       "aurelia-framework"
@@ -683,13 +686,6 @@ System.config({
       "aurelia-metadata",
       "./router-view"
     ],
-    "npm:aurelia-templating-router@1.2.0/route-href.js": [
-      "aurelia-templating",
-      "aurelia-dependency-injection",
-      "aurelia-router",
-      "aurelia-pal",
-      "aurelia-logging"
-    ],
     "npm:aurelia-templating-router@1.2.0/router-view.js": [
       "aurelia-dependency-injection",
       "aurelia-binding",
@@ -697,6 +693,13 @@ System.config({
       "aurelia-router",
       "aurelia-metadata",
       "aurelia-pal"
+    ],
+    "npm:aurelia-templating-router@1.2.0/route-href.js": [
+      "aurelia-templating",
+      "aurelia-dependency-injection",
+      "aurelia-router",
+      "aurelia-pal",
+      "aurelia-logging"
     ],
     "npm:aurelia-templating@1.6.0.js": [
       "npm:aurelia-templating@1.6.0/aurelia-templating"
@@ -774,10 +777,10 @@ System.config({
       "./set-repeat-strategy",
       "./number-repeat-strategy"
     ],
-    "npm:aurelia-templating-resources@1.5.4/map-repeat-strategy.js": [
+    "npm:aurelia-templating-resources@1.5.4/set-repeat-strategy.js": [
       "./repeat-utilities"
     ],
-    "npm:aurelia-templating-resources@1.5.4/set-repeat-strategy.js": [
+    "npm:aurelia-templating-resources@1.5.4/map-repeat-strategy.js": [
       "./repeat-utilities"
     ],
     "npm:aurelia-templating-resources@1.5.4/number-repeat-strategy.js": [
@@ -786,17 +789,17 @@ System.config({
     "npm:aurelia-templating-resources@1.5.4/aurelia-hide-style.js": [
       "aurelia-pal"
     ],
+    "npm:aurelia-templating-resources@1.5.4/if.js": [
+      "aurelia-templating",
+      "aurelia-dependency-injection",
+      "./if-core"
+    ],
     "npm:aurelia-templating-resources@1.5.4/compose.js": [
       "aurelia-dependency-injection",
       "aurelia-logging",
       "aurelia-task-queue",
       "aurelia-templating",
       "aurelia-pal"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/if.js": [
-      "aurelia-templating",
-      "aurelia-dependency-injection",
-      "./if-core"
     ],
     "npm:aurelia-templating-resources@1.5.4/else.js": [
       "aurelia-templating",
@@ -808,6 +811,12 @@ System.config({
       "aurelia-templating",
       "aurelia-binding"
     ],
+    "npm:aurelia-templating-resources@1.5.4/show.js": [
+      "aurelia-dependency-injection",
+      "aurelia-templating",
+      "aurelia-pal",
+      "./aurelia-hide-style"
+    ],
     "npm:aurelia-templating-resources@1.5.4/repeat.js": [
       "aurelia-dependency-injection",
       "aurelia-binding",
@@ -816,12 +825,6 @@ System.config({
       "./repeat-utilities",
       "./analyze-view-factory",
       "./abstract-repeater"
-    ],
-    "npm:aurelia-templating-resources@1.5.4/show.js": [
-      "aurelia-dependency-injection",
-      "aurelia-templating",
-      "aurelia-pal",
-      "./aurelia-hide-style"
     ],
     "npm:aurelia-templating-resources@1.5.4/hide.js": [
       "aurelia-dependency-injection",
@@ -1016,11 +1019,11 @@ System.config({
     "npm:process@0.11.10.js": [
       "npm:process@0.11.10/browser.js"
     ],
-    "npm:source-map@0.5.7/lib/array-set.js": [
-      "./util"
-    ],
     "npm:source-map@0.5.7/lib/base64-vlq.js": [
       "./base64"
+    ],
+    "npm:source-map@0.5.7/lib/array-set.js": [
+      "./util"
     ],
     "npm:source-map@0.5.7/lib/mapping-list.js": [
       "./util"
@@ -1353,6 +1356,10 @@ System.config({
     "npm:es5-ext@0.10.35/object/keys/shim.js": [
       "../is-value"
     ],
+    "npm:es5-ext@0.10.35/object/_iterate.js": [
+      "./valid-callable",
+      "./valid-value"
+    ],
     "npm:es5-ext@0.10.35/array/from/shim.js": [
       "es6-symbol",
       "../../function/is-arguments",
@@ -1362,10 +1369,6 @@ System.config({
       "../../object/valid-value",
       "../../object/is-value",
       "../../string/is-string"
-    ],
-    "npm:es5-ext@0.10.35/object/_iterate.js": [
-      "./valid-callable",
-      "./valid-value"
     ],
     "npm:es5-ext@0.10.35/function/is-function.js": [
       "./noop"
@@ -1385,7 +1388,7 @@ System.config({
     ]
   },
   bundles: {
-    "app-build-2f95ba1508.js": [
+    "app-build-79132296e2.js": [
       "app.html!github:systemjs/plugin-text@0.0.8.js",
       "app.js",
       "editor.js",
